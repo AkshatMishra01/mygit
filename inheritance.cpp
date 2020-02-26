@@ -10,7 +10,14 @@ father()
 cout<<"i am the father function";
 }
 };
-class child : public child 
+class child : public parent
+{
+int a;
+son()
+{
+cout<<"i am the son";
+}
+};
 int main()
 {
 child obj1;
