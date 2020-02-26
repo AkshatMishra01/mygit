@@ -13,6 +13,7 @@ cout<<"i am the father function";
 class child : public parent
 {
 int a;
+public:
 son()
 {
 cout<<"i am the son";
