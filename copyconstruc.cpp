@@ -12,7 +12,7 @@ class free
 	{
 		cout<<"parametrized constructor\n";
 	}
-	free(int a,int b)
+	free(const free & m)
 	{
 		cout<<"copy constructor\n";
 	}
@@ -22,6 +22,6 @@ int main()
 {
 	free a1;
 	free a2(3,4);
-	free a3(a2);
+	free a3();
 	return 0;
 }
